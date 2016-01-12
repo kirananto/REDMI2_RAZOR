@@ -32,7 +32,7 @@
 			pinctrl-names = "default";
 			pinctrl-0 = <&smb_int_default>;
 			qcom,chg-inhibit-disabled;
-			qcom,fg-batt-capacity-mah = <2200>;
+			qcom,fg-batt-capacity-mah = <2230>;
 			qcom,fg-cc-soc-coeff = <0x8373>;
 			qcom,fg-delta-soc = <1>;
 			qcom,fg-cutoff-voltage-mv = <3400>;
@@ -52,8 +52,8 @@
 			qcom,soft-jeita-supported;
 			qcom,warm-bat-decidegc = <450>;
 			qcom,cool-bat-decidegc = <100>;
-			qcom,warm-bat-mv = <4000>;
-			qcom,cool-bat-mv = <4100>;
+			qcom,warm-bat-mv = <4350>;
+			qcom,cool-bat-mv = <4350>;
 			qcom,warm-bat-ma = <600>;
 			qcom,cool-bat-ma = <600>;
 			regulator-name = "smb1360_otg_vreg";
